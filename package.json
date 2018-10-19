@@ -5,6 +5,7 @@
   "author": "Coopdevs",
   "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
+    "backslide": "^2.3.2",
     "slides_template": "^1.0.0"
   }
 }
