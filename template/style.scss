@@ -4,7 +4,7 @@
 // Theme
 // ---------------------------------------------------------------------------
 
-$primary          : #3A407A;
+$primary          : #fff;
 $secondary        : #009688;
 $tertiary         : #757575;
 $white            : #FFF;
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 $margin 0;
   font-family: $font-title;
   font-weight: $font-bold;
-  color: $white;
+  color: $text-dark;
 }
 li { margin-bottom: .25em; };
 pre, code {
@@ -48,7 +48,7 @@ pre, code {
   color: $secondary;
   background: $code-background;
 }
-a, a:visited, a:hover, a:active { color: $text-light; }
+a, a:visited, a:hover, a:active { color: $text-dark; }
 img { vertical-align: inherit; }
 blockquote {
   border-left: 8px solid;
@@ -71,7 +71,7 @@ blockquote {
 .remark-slide-content {
   font-size: $font-size;
   padding: 2em;
-  color: $text-light;
+  color: $text-dark;
   background-size: cover;
   background-color: $primary;
   letter-spacing: 0.01em;
@@ -98,7 +98,7 @@ blockquote {
 }
 
 .remark-slide-number {
-  color: $text-light;
+  color: $text-dark;
   right: 1em;
   opacity: .6;
   font-size: 0.8em;
@@ -112,7 +112,7 @@ blockquote {
   vertical-align: middle;
   text-align: center;
   &, h1, h2 {
-    color: $text-light;
+    color: $text-dark;
   }
   h1, h2 { font-weight: $font-heavy; }
   h1 { font-size: $font-size-impact; }
@@ -120,7 +120,7 @@ blockquote {
 }
 
 .full {
-  &, h1, h2 { color: $text-light; }
+  &, h1, h2 { color: $text-dark; }
   &iframe {
     height: calc(#{100%/$iframe-scale} - 1.2em);
     width: 100%/$iframe-scale;
@@ -131,7 +131,7 @@ blockquote {
 }
 
 .bottom-bar {
-  color: $text-light;
+  color: $text-dark;
   position: absolute;
   bottom: 0;
   left: 0;
