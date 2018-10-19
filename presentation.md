@@ -17,8 +17,8 @@ background-image: radial-gradient(rgba(58, 64, 122, 0.75), rgba(58, 64, 122, 0.8
 
 ## Coopdevs
 
-Pau Pérez<br>
-@prez_pau
+@prez_pau<br>
+github.com/sauloperez
 
 github.com/coopdevs<br>
 community.coopdevs.org
